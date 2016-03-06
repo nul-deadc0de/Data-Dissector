@@ -1,0 +1,48 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="{{ static_url("css/material-icons.css") }}">
+    <link rel="stylesheet" href="{{ static_url("css/material.css") }}">
+    <script src="{{ static_url("scripts/material.js")}}"></script>
+  </head>
+
+<div class="mdl-layout mdl-js-layout">
+
+  <header class="mdl-layout__header">
+
+    <div class="mdl-layout-icon"></div>
+
+    <div class="mdl-layout__header-row">
+
+      <span class="mdl-layout__title">{{ page_title }}</span>
+      <div class="mdl-layout-spacer"></div>
+
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">Link 1</a>
+        <a class="mdl-navigation__link" href="">Link 2</a>
+        <a class="mdl-navigation__link" href="/exit">Exit Application</a>
+      </nav>
+
+    </div>
+
+  </header>
+
+  <div class="mdl-layout__drawer">
+
+    <span class="mdl-layout__title">{{ menu_title }}</span>
+
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="">Nav Link 1</a>
+      <a class="mdl-navigation__link" href="">Nav Link 2</a>
+      <a class="mdl-navigation__link" href="">Nav Link 3</a>
+    </nav>
+
+  </div>
+
+  <main class="mdl-layout__content">
+    Stuff
+  </main>
+
+</div>
+
+
+</html>
