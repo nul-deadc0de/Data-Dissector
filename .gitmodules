@@ -1,0 +1,3 @@
+[submodule "static/icons"]
+	path = static/icons
+	url = https://github.com/google/material-design-icons
